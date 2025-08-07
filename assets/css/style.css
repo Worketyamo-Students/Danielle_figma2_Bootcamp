@@ -46,8 +46,9 @@ button{
     width: 5rem;
     height: 2rem;
     border: 1 solid;
-    border-radius: .5rem;
-    background:var(--pricolor)
+    border-radius: 5rem;
+    background:var(--pricolor);
+    color:#fff;
 
 }
 
@@ -63,14 +64,15 @@ span{
     height: auto;
     text-align: center;
     overflow: hidden;
-
+    flex: 2;
 }
 
 .btn{
-    width: 40rem;
+    width: 60rem;
     display: flex;
     flex-direction: column;
     text-align: center;
+    flex: 1;
 }
 
 .un{
@@ -120,6 +122,9 @@ span{
     font-size: .5rem;
 }
 
+.photo img{
+    border-radius: 1.4rem;
+}
 .video{
     display: flex;
     flex-direction: column;
@@ -131,6 +136,10 @@ span{
     gap: 3rem 0;
 }
 
+.video img{
+    border-radius: 1.4rem;
+}
+
 .video h4{
     color:#000E01;
     font-family: var(--ibmPlexSHe);
@@ -140,6 +149,7 @@ span{
     display: flex;
     flex-direction: column;
     gap: 2rem 0;
+
 
 }
 
@@ -190,6 +200,10 @@ span{
 
 .icone .icone_d {
     margin: 0 3rem 0;
+}
+
+.programme img{
+    border-radius: 1rem;
 }
 
 .programme p {
@@ -270,6 +284,10 @@ span{
     margin: 5rem 0 0 0 ;
 }
 
+.artiste .barre{
+    height: 1rem;
+    background: var(--pricolor);
+}
 .artiste h2{
     color:#618264;
     font-family: var(--ibmPlexSHe);
@@ -291,8 +309,29 @@ span{
 
 footer{
     height: 15rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: #79AC78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .icone_z .icone_y {
+    margin: 1rem 2rem 0 0;
+    
+}
+
+footer .icone_z .icone_x {
+    margin: 1rem 2rem 0 0;
+
+}
+
+footer .icone_z .icone_w {
+    margin: 1rem 2rem 0 0;
+
+}
+
+footer .icone_z .icone_v {
+    margin: 1rem 2rem 0 0;
+
 }
