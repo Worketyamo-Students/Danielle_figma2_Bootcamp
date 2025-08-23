@@ -5,7 +5,7 @@
     --ibmPlexSDe:"ibm plex sans devanagari", sans serif;
     --ibmPlexSHe:"ibm plex sans hebrew", sans serif;
     --inter: "Inter", sans-serif;
-
+    --background:#fff;
 }
 
 *{
@@ -19,28 +19,34 @@ html{
 }
 
 body{
-    font-family: ;
-    width: 100%;
-    height: 100%;
+    padding: 2rem 3rem;
+    background: var(--background);
 }
 
 header{
     width: 100%;
     height: 100%;
-    font-family: var(--ibmPlexSDe);
+    padding: 0 2rem;
+    font-family: var(--inter);
     background: transparent;
     display: flex;
-    gap: 18rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header a{
     text-decoration: none;
-    color:#000E01;;
+    color:#000E01;
 }
 .lien{
     display: flex;
     justify-content: center;
     gap: 7rem;
+}
+
+.active:hover{
+    color:#79AC78;
+    text-decoration: underline;
 }
 button{
     width: 5rem;
@@ -53,7 +59,7 @@ button{
 }
 
 span{
-    margin: 1rem 0 2rem 3rem;
+    margin: 2rem 0 0 0;
     display: flex;
     flex-direction:row;
     font-family: var(--ibmPlexSHe);
@@ -63,8 +69,7 @@ span{
 .nganou{
     height: auto;
     text-align: center;
-    overflow: hidden;
-    flex: 2;
+    flex: 3;
 }
 
 .btn{
@@ -72,10 +77,13 @@ span{
     display: flex;
     flex-direction: column;
     text-align: center;
-    flex: 1;
+    flex: 2;
 }
 
-.un{
+.un{ 
+    background:transparent;
+    padding: 0.5rem 1rem ;
+    border-left: .5rem solid var(--pricolor);
     color: #000E01;
     display: flex;
 }
@@ -83,7 +91,7 @@ span{
 .enfant{
     display: flex;
     align-items: center;
-    flex-direction: row;
+  
 }
 
 .tout h3{
@@ -99,17 +107,18 @@ span{
 .police {
     display: flex;
     align-items: center;
-    flex-direction: row;
 }
+
 .ville {
     display: flex;
     align-items: center;
-    flex-direction: row;
+   
 }
 
 .photo{
+    padding: 0 3rem;
     display: flex;
-    gap: 12rem;
+    gap: 7rem;
     font-family: var(--ibmPlexSHe);
 
 }
@@ -143,63 +152,59 @@ span{
 .video h4{
     color:#000E01;
     font-family: var(--ibmPlexSHe);
+    font-size: 2rem;
 }
 
 .actualite{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem 0;
-
 
 }
 
 .actualite h4{
     display: flex;
     justify-content: center;
-    font-size: 1.6rem;
+    margin: 0 0 5rem 5rem;
+    font-size: 2rem;
     font-family: var(--ibmPlexSHe);
     color:#000E01;
 }
 
 .actualite .canal{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     gap: 1.6rem;
 }
 
 .actualite .canal h3{
+    font-size: 2.5rem;
     color: #618264;
     margin: 0 0 3rem;
 }
 
 .text{
     color:#000E01;
-    font-size: .7rem;
-    margin: 0 0 3rem;
+    font-size: 1rem;
 }
 
 .date{
     color: #000000;
-    font-size: .7rem;
-    margin: 0 0 3rem;
+    font-size: 1rem;
+    margin:3rem 0;
 }
 
 .icone .icone_a{
-    margin: 0 3rem 0;
+    margin: 0 2rem 0;
 }
 
 .icone .icone_b {
-    margin: 0 3rem 0;
+    margin: 0 2rem 0;
 }
 
 .icone .icone_c {
-    margin: 0 3rem 0;
+    margin: 0 2rem 0;
 }
 
 .icone .icone_d {
-    margin: 0 3rem 0;
+    margin: 0 2rem 0;
 }
 
 .programme img{
@@ -207,14 +212,14 @@ span{
 }
 
 .programme p {
-    font-size: 0.3rem;
+    font-size: 0.5rem;
     color: #79AC78;
     font-family: var(--inter);
 
 }
 
 .programme h6{
-    font-size: .5rem;
+    font-size: 1rem;
     font-family: var(--ibmPlexSHe);
     color:#000E01;
 }
@@ -243,12 +248,12 @@ span{
 
 .comment h4{
     color: #618264;
-    font-size: 1.4rem;
+    font-size: 2.5rem;
     font-family: var(--ibmPlexSHe);
 }
 
 .comment p{
-    font-size: .6rem;
+    font-size: 1rem;
     color: #000E01;
 }
 
@@ -285,7 +290,8 @@ span{
 }
 
 .artiste .barre{
-    height: 1rem;
+    height: 2rem;
+    width: 1rem;
     background: var(--pricolor);
 }
 .artiste h2{
@@ -308,6 +314,7 @@ span{
 }
 
 footer{
+    margin: 5rem 0 0 0;
     height: 15rem;
     background: #79AC78;
     display: flex;
@@ -334,4 +341,8 @@ footer .icone_z .icone_w {
 footer .icone_z .icone_v {
     margin: 1rem 2rem 0 0;
 
+}
+
+@media only screen and {max-width: ;
+    
 }
