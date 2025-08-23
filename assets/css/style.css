@@ -58,6 +58,10 @@ button{
 
 }
 
+.menu{
+    display: none;
+}
+
 span{
     margin: 2rem 0 0 0;
     display: flex;
@@ -67,9 +71,7 @@ span{
 }
 
 .nganou{
-    height: auto;
-    text-align: center;
-    flex: 3;
+    flex: 5;
 }
 
 .btn{
@@ -155,9 +157,6 @@ span{
     font-size: 2rem;
 }
 
-.actualite{
-
-}
 
 .actualite h4{
     display: flex;
@@ -289,6 +288,10 @@ span{
     margin: 5rem 0 0 0 ;
 }
 
+.artiste{
+    margin: 7rem 0 ;
+}
+
 .artiste .barre{
     height: 2rem;
     width: 1rem;
@@ -343,6 +346,23 @@ footer .icone_z .icone_v {
 
 }
 
-@media only screen and {max-width: ;
-    
+@media only screen and (max-width:960px){
+    header .active{
+        display: none;
+    }
+
+    button{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        font-size: 2rem;
+    }
+
+    .tout{
+        display: flex;
+        flex-direction: column;
+    }
 }
+    
