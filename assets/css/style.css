@@ -358,11 +358,32 @@ footer .icone_z .icone_v {
     .menu{
         display: block;
         font-size: 2rem;
+        margin: 0 0 0 5rem;
     }
 
     .tout{
         display: flex;
         flex-direction: column;
+    }
+
+    .nganou{
+        width: 90%;
+        height: 100vh;
+    }
+
+    .un{
+        margin: 3rem;
+    }
+
+    .enfant{
+        display: flex;
+    }
+
+    .police{
+        display: flex;
+    }
+    .ville{
+        display: flex;
     }
 }
     
