@@ -377,13 +377,16 @@ footer .icone_z .icone_v {
 
     .enfant{
         display: flex;
+                flex-direction: column;
     }
 
     .police{
         display: flex;
+                flex-direction: column;
     }
     .ville{
         display: flex;
+                flex-direction: column;
     }
 }
     
